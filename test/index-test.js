@@ -1,11 +1,11 @@
 /*global describe, it*/
 
-require('../index.js');
+const index = require('../index.js');
 
 describe('functions', () => {
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
-      expect(happyHolidays()).toEqual('Happy holidays!')
+      expect(index.happyHolidays()).toEqual('Happy holidays!')
     })
   })
 
